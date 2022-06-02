@@ -1,0 +1,47 @@
+.container {
+    background-color: #b62492;
+    height: 100vh;
+    text-align: center;
+    padding:20px;
+  }
+  
+  .heading{
+    color: hsl(210, 37%, 93%);
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-weight:bold;
+  }
+  
+  .box{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap:wrap;
+  }
+  
+  .user-input {
+    text-align: center;
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 500;
+    width: 500px;
+    padding: 10px;
+  }
+  
+  .result {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .check-guess {
+    width: 170px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+  }
